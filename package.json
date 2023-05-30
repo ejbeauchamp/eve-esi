@@ -4,9 +4,14 @@
   "description": "npm install -g openapi-typescript-codegen\r openapi --input https://esi.evetech.net/latest/swagger.json --output ./esi --indent tab --useOptions --name ESI",
   "main": "index.ts",
   "scripts": {
+    "start": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "save-dev": "^0.0.1-security",
+    "typescript": "^5.0.4"
+  }
 }
