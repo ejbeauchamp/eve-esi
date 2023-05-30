@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FittingsService = void 0;
 class FittingsService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

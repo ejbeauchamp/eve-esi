@@ -35,39 +35,6 @@ const UserInterfaceService_1 = require("./services/UserInterfaceService");
 const WalletService_1 = require("./services/WalletService");
 const WarsService_1 = require("./services/WarsService");
 class ESI {
-    alliance;
-    assets;
-    bookmarks;
-    calendar;
-    character;
-    clones;
-    contacts;
-    contracts;
-    corporation;
-    dogma;
-    factionWarfare;
-    fittings;
-    fleets;
-    incursions;
-    industry;
-    insurance;
-    killmails;
-    location;
-    loyalty;
-    mail;
-    market;
-    opportunities;
-    planetaryInteraction;
-    routes;
-    search;
-    skills;
-    sovereignty;
-    status;
-    universe;
-    userInterface;
-    wallet;
-    wars;
-    request;
     constructor(config, HttpRequest = FetchHttpRequest_1.FetchHttpRequest) {
         this.request = new HttpRequest({
             BASE: config?.BASE ?? 'https://esi.evetech.net/latest',

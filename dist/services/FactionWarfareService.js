@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.FactionWarfareService = void 0;
 class FactionWarfareService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

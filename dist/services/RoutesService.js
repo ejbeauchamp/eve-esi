@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RoutesService = void 0;
 class RoutesService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

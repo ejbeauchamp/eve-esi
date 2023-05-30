@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ClonesService = void 0;
 class ClonesService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

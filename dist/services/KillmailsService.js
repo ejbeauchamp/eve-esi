@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.KillmailsService = void 0;
 class KillmailsService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

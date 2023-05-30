@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AllianceService = void 0;
 class AllianceService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.StatusService = void 0;
 class StatusService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

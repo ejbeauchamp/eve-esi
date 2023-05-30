@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LocationService = void 0;
 class LocationService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

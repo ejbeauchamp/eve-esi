@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SkillsService = void 0;
 class SkillsService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

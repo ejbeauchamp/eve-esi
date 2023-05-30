@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CharacterService = void 0;
 class CharacterService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

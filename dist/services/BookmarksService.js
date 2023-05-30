@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BookmarksService = void 0;
 class BookmarksService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

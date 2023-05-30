@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MailService = void 0;
 class MailService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

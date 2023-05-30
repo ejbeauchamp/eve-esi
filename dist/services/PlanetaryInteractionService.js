@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PlanetaryInteractionService = void 0;
 class PlanetaryInteractionService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

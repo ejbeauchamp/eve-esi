@@ -1,1 +1,1 @@
-{"version":3,"file":"BaseHttpRequest.js","sourceRoot":"","sources":["../../core/BaseHttpRequest.ts"],"names":[],"mappings":";;;AAOA,MAAsB,eAAe;IAER;IAA5B,YAA4B,MAAqB;QAArB,WAAM,GAAN,MAAM,CAAe;IAAG,CAAC;CAGrD;AALD,0CAKC"}
+{"version":3,"file":"BaseHttpRequest.js","sourceRoot":"","sources":["../../core/BaseHttpRequest.ts"],"names":[],"mappings":";;;AAOA,MAAsB,eAAe;IAEpC,YAA4B,MAAqB;QAArB,WAAM,GAAN,MAAM,CAAe;IAAG,CAAC;CAGrD;AALD,0CAKC"}

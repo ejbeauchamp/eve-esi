@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SovereigntyService = void 0;
 class SovereigntyService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

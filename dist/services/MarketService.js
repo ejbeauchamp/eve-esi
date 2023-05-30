@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MarketService = void 0;
 class MarketService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

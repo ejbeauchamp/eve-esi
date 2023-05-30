@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.OpportunitiesService = void 0;
 class OpportunitiesService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

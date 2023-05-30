@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DogmaService = void 0;
 class DogmaService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

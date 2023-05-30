@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SearchService = void 0;
 class SearchService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

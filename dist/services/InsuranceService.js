@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InsuranceService = void 0;
 class InsuranceService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

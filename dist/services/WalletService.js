@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.WalletService = void 0;
 class WalletService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

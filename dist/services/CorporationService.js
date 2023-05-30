@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CorporationService = void 0;
 class CorporationService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

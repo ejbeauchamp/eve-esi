@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UniverseService = void 0;
 class UniverseService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

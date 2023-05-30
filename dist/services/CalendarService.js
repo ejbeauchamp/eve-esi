@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CalendarService = void 0;
 class CalendarService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }

@@ -2,11 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ApiError = void 0;
 class ApiError extends Error {
-    url;
-    status;
-    statusText;
-    body;
-    request;
     constructor(request, response, message) {
         super(message);
         this.name = 'ApiError';

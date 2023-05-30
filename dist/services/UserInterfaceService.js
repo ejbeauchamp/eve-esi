@@ -2,7 +2,6 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserInterfaceService = void 0;
 class UserInterfaceService {
-    httpRequest;
     constructor(httpRequest) {
         this.httpRequest = httpRequest;
     }
